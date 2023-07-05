@@ -1,0 +1,35 @@
+a {color: #0645ad !important;}
+
+footer {
+	height: 100px;
+}
+
+#p-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.resumedia-logo {
+	height: 97%;
+}
+
+
+.infobox-image {
+	text-align: center !important;
+}
+.infobox-image img {
+	width: 220px;
+	margin: 0 auto;
+}
+
+.infobox-above {
+	background: purple;
+	color: white;
+}
+.name-header {
+	font-size: 15.4px;
+}
+.background-info-header {
+	font-size: 12.32px;
+}
