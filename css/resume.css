@@ -41,3 +41,9 @@ footer {
 .background-info-header {
 	font-size: 12.32px;
 }
+
+.skills-container {
+	display: flex;
+	width: 100%;
+}
+.skills-container div + div {margin-left: 150px;}
