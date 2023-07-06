@@ -1,3 +1,10 @@
+@font-face {
+	font-family: "Linux Libertine";
+	font-weight: 400;
+	font-style: normal;
+	src: url("../LinLibertine_R.ttf") format("truetype");
+}
+
 a {color: #0645ad !important;}
 
 footer {
