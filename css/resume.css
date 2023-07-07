@@ -47,3 +47,56 @@ footer {
 	width: 100%;
 }
 .skills-container div + div {margin-left: 150px;}
+
+
+
+/* Right side */
+.right-side {
+	padding-top: 40px;
+	margin-left: 8px;
+}
+
+.action-btn-container {
+	display: flex;
+	height: 40px;
+	width: 100%;
+	margin-bottom: -1px;
+}
+
+.action-btn-divider {
+	height: 100%;
+	width: 1px;
+	background: linear-gradient(to bottom, transparent 0, #a7d7f9 100%);
+}
+
+.action-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	line-height: 1.125em;
+	padding-left: 8px;
+	padding-right: 7px;
+	padding-top: 10px;
+	border-bottom: 1px solid #a7d7f9;
+	background: linear-gradient(to bottom, transparent 0, #e8f2f8 100%);
+	color: #0645ad;
+	box-sizing: border-box;
+}
+.action-btn.selected {
+	border-bottom: 0;
+	padding-top: 9px;
+	background: linear-gradient(to bottom, transparent 0, white 100%);;
+	color: black;
+}
+
+.nav-spacer {
+	flex-grow: 1;
+}
+
+.star-btn {
+	width: 28px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 5px;
+}
