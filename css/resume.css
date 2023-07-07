@@ -50,10 +50,81 @@ footer {
 
 
 
+
+/* Left side */
+.left-side {
+	font-size: inherit;
+	padding: 0 8px;
+}
+
+.left-side nav:first-child {background-image: none;}
+
+.left-side nav:first-child .vector-menu-heading {
+	display: none;
+}
+
+.left-side nav:first-child .vector-menu-content {
+	margin-left: 0.5em;
+}
+
+.left-side .vector-menu-portal {
+	margin: 0 0.6em 0 0.7em;
+	padding: 0.25em 0;
+	direction: ltr;
+}
+
+.left-side .vector-menu-portal .vector-menu-heading {
+	display: block;
+	color: #54595d;
+	margin: 0.5em 0 0 0.66666667em;
+	border: 0;
+	padding: 0.25em 0;
+	font-size: 0.75em;
+	font-weight: normal;
+	cursor: default;
+	background-image: linear-gradient(to right, rgba(200, 204, 209, 0)0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 1px
+}
+
+.left-side .vector-menu-portal .vector-menu-content {
+	margin-left: 0.5em;
+	padding-top: 0
+}
+
+.left-side .vector-menu-portal .vector-menu-content ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 0.3em
+}
+
+.left-side .vector-menu-portal .vector-menu-content li {
+	margin: 0;
+	padding: 0.25em 0;
+	font-size: 0.75em;
+	line-height: 1.125em;
+	word-wrap: break-word
+}
+
+.left-side .vector-menu-portal .vector-menu-content li a {
+	color: #0645ad
+}
+
+.left-side .vector-menu-portal .vector-menu-content li a:visited {
+	color: #0b0080
+}
+
+.vector-search-box-inner {
+	position: relative;
+	height: 100%
+}
+
+
+
 /* Right side */
 .right-side {
 	padding-top: 40px;
-	margin-left: 8px;
 }
 
 .action-btn-container {
