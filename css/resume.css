@@ -137,7 +137,7 @@ footer {
 .action-btn-divider {
 	height: 100%;
 	width: 1px;
-	background: linear-gradient(to bottom, transparent 0, #a7d7f9 100%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #a7d7f9 100%);
 }
 
 .action-btn {
@@ -150,14 +150,14 @@ footer {
 	padding-right: 7px;
 	padding-top: 10px;
 	border-bottom: 1px solid #a7d7f9;
-	background: linear-gradient(to bottom, transparent 0, #e8f2f8 100%);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #e8f2f8 100%);
 	color: #0645ad;
 	box-sizing: border-box;
 }
 .action-btn.selected {
 	border-bottom: 0;
 	padding-top: 9px;
-	background: linear-gradient(to bottom, transparent 0, white 100%);;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, white 100%);;
 	color: black;
 }
 
