@@ -92,12 +92,17 @@ b {
 	color: black;
 }
 
-.letter-top {display: flex;}
+.letter-top {
+	display: flex;
+	align-items: flex-start;
+}
 
 .to-address {
+	height: 100%;
 	margin: 0;
 	margin-left: 50px;
 	margin-right: auto;
+	margin-bottom: auto;
 }
 
 .date {align-self: flex-end;}
