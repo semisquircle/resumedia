@@ -92,15 +92,15 @@ b {
 	color: black;
 }
 
-.letter-top {
-	display: flex;
-	align-items: flex-end;
-}
+.letter-top {display: flex;}
 
 .to-address {
+	margin: 0;
 	margin-left: 50px;
 	margin-right: auto;
 }
+
+.date {align-self: flex-end;}
 
 .preposition {
 	font-size: 12px;
