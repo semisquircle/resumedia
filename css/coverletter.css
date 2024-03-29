@@ -15,7 +15,7 @@ body {
 	background: #f6f6f6;
 }
 
-p, .from-address, .to-address {
+p {
 	line-height: 1.6;
 	padding: 0;
 	margin: 0;
@@ -97,9 +97,9 @@ b {
 }
 
 .to-address {
-	height: 100%;
-	margin-left: 50px;
-	margin-right: auto;
+	margin: 0 !important;
+	margin-left: 50px !important;
+	margin-right: auto !important;
 }
 
 .date {align-self: flex-end;}
