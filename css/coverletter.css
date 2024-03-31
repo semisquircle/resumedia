@@ -4,6 +4,7 @@ html, body {
 }
 
 * {
+	position: relative;
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
@@ -20,6 +21,13 @@ p {
 	padding: 0;
 	margin: 0;
 }
+main p + p {margin-top: 1.4em;}
+
+b {
+	font-weight: 400;
+	color: #0645AD;
+}
+
 
 
 
@@ -42,25 +50,12 @@ main {
 	margin-top: 40px;
 }
 
-.letter {
-	height: 100%;
-	padding: var(--padding);
-	background: white;
-	border: 1px solid #a7d7f9;
-}
-
-main p + p {margin-top: 1.4em;}
-
-b {
-	font-weight: 400;
-	color: #0645AD;
-}
-
 .action-btn-container {
 	display: flex;
 	height: 40px;
 	width: 100%;
 	margin-bottom: -1px;
+	z-index: 11;
 }
 
 .action-btn-divider {
@@ -91,6 +86,14 @@ b {
 	color: black;
 }
 
+.letter {
+	height: 100%;
+	padding: var(--padding);
+	background: white;
+	border: 1px solid #a7d7f9;
+	z-index: 10;
+}
+
 .letter-top {
 	display: flex;
 	align-items: flex-start;
@@ -115,4 +118,20 @@ b {
 	height: 1px;
 	margin: 30px auto;
 	background-image: linear-gradient(to right, rgba(200, 204, 209, 0)0, #c8ccd1 33%, #c8ccd1 66%, rgba(200, 204, 209, 0) 100%);
+}
+
+.bottom-text {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	display: flex;
+	align-items: center;
+	font-style: italic;
+	opacity: 0.2;
+}
+
+.bottom-text img {
+	height: 30px;
+	margin-left: 12px;
+	transform: translate(0, -2px);
 }
