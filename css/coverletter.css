@@ -121,17 +121,16 @@ main {
 }
 
 .bottom-text {
-	position: fixed;
-	right: 25px;
-	bottom: 25px;
-	display: flex;
-	align-items: center;
-	font-style: italic;
-	opacity: 0.2;
+	position: fixed !important;
+	right: 25px !important;
+	bottom: 25px !important;
+	display: flex !important;
+	align-items: center !important;
+	font-style: italic !important;
+	opacity: 0.2 !important;
 }
-
 .bottom-text img {
-	height: 30px;
-	margin-left: 12px;
-	transform: translate(0, -2px);
+	height: 30px !important;
+	margin-left: 12px !important;
+	transform: translate(0, -2px) !important;
 }
