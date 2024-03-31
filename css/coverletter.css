@@ -127,11 +127,11 @@ main {
 	align-items: center !important;
 	font-size: 15px !important;
 	font-style: italic !important;
-	opacity: 0.2 !important;
+	opacity: 0.18 !important;
 }
 .bottom-text img {
-	height: 30px !important;
-	margin-left: 12px !important;
+	height: 28px !important;
+	margin-left: 10px !important;
 	transform: translate(0, -2px) !important;
 	-webkit-transform: translate(0, -2px) !important;
 }
