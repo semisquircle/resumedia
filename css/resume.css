@@ -42,12 +42,6 @@ footer {
 	font-size: 12.32px;
 }
 
-.skills-container {
-	display: flex;
-	width: 100%;
-}
-.skills-container div + div {margin-left: 150px;}
-
 
 
 
@@ -168,4 +162,23 @@ footer {
 	padding-left: 0;
 	padding-right: 0;
 	padding-top: 5px;
+}
+
+.mw-body {
+	height: 100% !important;
+	border-bottom: 0 !important;
+}
+
+.work-list li + li {
+	margin-top: 10px;
+}
+
+.skills-container {
+	display: flex;
+	width: 100%;
+}
+.skills-container div + div {margin-left: 100px;}
+
+.programming-list {
+	columns: 2;
 }
