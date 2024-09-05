@@ -3,3 +3,4 @@ Cover letter viewport width: 850
 
 Orientation: Vertical
 2 second delay for fonts to load
+0 margins
