@@ -1,5 +1,5 @@
-Resume viewport width: 1300
-Cover letter viewport width: 850
+Resume viewport dimensions: 1180x1527
+Cover letter viewport dimensions: 850x1100
 
 Orientation: Vertical
 2 second delay for fonts to load
