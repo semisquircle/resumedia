@@ -177,7 +177,7 @@ footer {
 	display: flex;
 	width: 100%;
 }
-.skills-container div + div {margin-left: 100px;}
+.skills-container div + div {margin-left: 80px;}
 
 .programming-list {
 	columns: 2;
