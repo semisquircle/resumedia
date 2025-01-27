@@ -179,6 +179,8 @@ footer {
 }
 .skills-container div + div {margin-left: 80px;}
 
-.programming-list {
-	columns: 2;
+.programming-list-container {
+	display: flex;
 }
+
+.programming-list-container ul:nth-child(2) {margin-left: 30px;}
