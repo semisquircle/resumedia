@@ -109,10 +109,12 @@ main {
 .to-address {
 	margin: 0 !important;
 	margin-left: 50px !important;
-	margin-right: auto !important;
 }
 
-.date {align-self: flex-end;}
+.date {
+	align-self: flex-end;
+	margin-left: auto !important;
+}
 
 .preposition {
 	font-size: 12px;
