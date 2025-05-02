@@ -1,7 +1,0 @@
-Resume viewport dimensions: 1180x1527
-Cover letter viewport dimensions: 850x1100
-
-Delay before conversion: 2 sec
-Orientation: Vertical
-Set page range: 1
-Margins: 0
