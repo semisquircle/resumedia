@@ -5,7 +5,7 @@
 
 .question {
 	font-weight: 700;
-	color: #0645AD;
+	color: var(--link-clr);
 }
 
 p:not(.letter-top p) {line-height: 2 !important;}

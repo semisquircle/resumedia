@@ -31,7 +31,7 @@ main p + p {margin-top: 1.4em;}
 
 b {
 	font-weight: 400;
-	color: #0645AD;
+	color: var(--link-clr);
 }
 
 
@@ -42,7 +42,7 @@ b {
 	width: 80px;
 	height: 100%;
 	padding-top: var(--padding);
-	color: #0645AD;
+	color: var(--link-clr);
 	white-space: nowrap;
 }
 
@@ -81,7 +81,7 @@ main {
 	border-bottom: 1px solid #a7d7f9;
 	background-image: linear-gradient(#f6f6f6 0, #e8f2f8 100%);
 	background-image: -webkit-linear-gradient(#f6f6f6 0, #e8f2f8 100%);
-	color: #0645ad;
+	color: var(--link-clr);
 	box-sizing: border-box;
 }
 .action-btn.selected {

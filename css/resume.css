@@ -5,7 +5,20 @@
 	src: url("../LinLibertine_R.ttf") format("truetype");
 }
 
-a {color: #0645ad !important;}
+a {color: var(--link-clr) !important;}
+a:visited {color: var(--link-clr) !important;}
+
+ol, ul {
+	margin: 0.3em 0 0 1.6em;
+	padding: 0;
+}
+
+li::marker {
+	font-size: 1em;
+	line-height: 0.5em;
+	padding: 0;
+	margin: 0;
+}
 
 footer {
 	height: 100px;
@@ -101,14 +114,6 @@ footer {
 	word-wrap: break-word
 }
 
-.left-side .vector-menu-portal .vector-menu-content li a {
-	color: #0645ad
-}
-
-.left-side .vector-menu-portal .vector-menu-content li a:visited {
-	color: #0b0080
-}
-
 
 
 /* Right side */
@@ -142,7 +147,7 @@ footer {
 	border-bottom: 1px solid #a7d7f9;
 	background-image: linear-gradient(#f6f6f6 0, #e8f2f8 100%);
 	background-image: -webkit-linear-gradient(#f6f6f6 0, #e8f2f8 100%);
-	color: #0645ad;
+	color: var(--link-clr);
 	box-sizing: border-box;
 }
 .action-btn.selected {
@@ -169,18 +174,30 @@ footer {
 	border-bottom: 0 !important;
 }
 
-.work-list li + li {
+#work-list li + li {
 	margin-top: 10px;
 }
 
-.skills-container {
+#skills-container {
 	display: flex;
 	width: 100%;
 }
-.skills-container div + div {margin-left: 80px;}
+#skills-container div + div {margin-left: 80px;}
 
-.programming-list-container {
-	display: flex;
+.programming-list-container {display: flex;}
+.programming-list-container ol + ol {margin-left: 45px;}
+.programming-list-container ul {
+	list-style-type: disc;
+	margin: 0;
+	margin-left: 1em;
 }
 
-.programming-list-container ul:nth-child(2) {margin-left: 30px;}
+#projects-list a {
+	background-image: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg?fb64d);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 0.85em;
+	padding-right: 1em;
+	cursor: pointer;
+}
+#projects-list a:hover {text-decoration: underline !important;}

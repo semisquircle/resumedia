@@ -106,10 +106,6 @@ button::-moz-focus-inner,
 		font-family: sans-serif;
 	}
 
-	ul {
-		list-style-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjEzIj4KCTxjaXJjbGUgY3g9IjIuNSIgY3k9IjkiIHI9IjIuNSIgZmlsbD0iIzIwMjEyMiIvPgo8L3N2Zz4K)
-	}
-
 	.mw-jump-link:not(:focus) {
 		display: block;
 		position: absolute !important;
@@ -171,7 +167,7 @@ button::-moz-focus-inner,
 	}
 
 	.vector-body {
-		font-size: calc(1em*0.875);
+		font-size: 0.875em;
 		line-height: 1.6
 	}
 
@@ -256,12 +252,7 @@ button::-moz-focus-inner,
 		margin: 0
 	}
 
-	.vector-menu-dropdown .mw-list-item a {
-		cursor: pointer
-	}
-
 	.vector-menu-checkbox {
-		cursor: pointer;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -507,7 +498,6 @@ button::-moz-focus-inner,
 		width: 2.15384615em;
 		border: 0;
 		padding: 0;
-		cursor: pointer;
 		font-size: 0.8125em;
 		direction: ltr;
 		text-indent: -99999px;
@@ -717,12 +707,8 @@ button::-moz-focus-inner,
 
 	a {
 		text-decoration: none;
-		color: #0645ad;
+		color: var(--link-clr);
 		background: none
-	}
-
-	a:not([href]) {
-		cursor: pointer
 	}
 
 	a:visited {
@@ -731,11 +717,6 @@ button::-moz-focus-inner,
 
 	a:active {
 		color: #faa700
-	}
-
-	a:hover,
-	a:focus {
-		text-decoration: underline
 	}
 
 	a:lang(ar),
@@ -787,11 +768,6 @@ button::-moz-focus-inner,
 
 	p {
 		margin: 0.4em 0 0.5em 0
-	}
-
-	ul {
-		margin: 0.3em 0 0 1.6em;
-		padding: 0
 	}
 
 	ol {
@@ -877,16 +853,6 @@ button::-moz-focus-inner,
 	ol:lang(my) li,
 	ol:lang(shn) li {
 		list-style-type: myanmar_with_period
-	}
-
-	.mw-content-ltr ul {
-		margin: 0.3em 0 0 1.6em;
-		padding: 0
-	}
-
-	.mw-content-ltr ol {
-		margin: 0.3em 0 0 3.2em;
-		padding: 0
 	}
 
 	h1:lang(anp),
@@ -1136,8 +1102,7 @@ button::-moz-focus-inner,
 	}
 
 	.toctogglelabel {
-		color: #0645ad;
-		cursor: pointer
+		color: var(--link-clr);
 	}
 
 	.toctogglelabel:hover {
@@ -1217,7 +1182,7 @@ button::-moz-focus-inner,
 }
 
 .wb-langlinks-link>a:hover {
-	color: #0645ad !important
+	color: var(--link-clr) !important
 }
 
 .wb-langlinks-link>a:hover::before {
